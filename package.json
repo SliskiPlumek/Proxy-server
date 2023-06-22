@@ -1,0 +1,20 @@
+{
+  "name": "proxy-server",
+  "version": "1.0.0",
+  "description": "A proxy server for fetching external api`s",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Hubert Śliwiński",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.3.1"
+  },
+  "dependencies": {
+    "apicache": "^1.6.3",
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "express-rate-limit": "^6.7.0"
+  }
+}
